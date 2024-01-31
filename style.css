@@ -1,0 +1,73 @@
+body {
+    background: rgb(70, 142, 236);
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 26px;
+}
+
+header{
+    color: whitesmoke;
+    text-align: center;
+}
+
+section {
+    background: seashell;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+
+}
+
+fieldset {
+    background: rgb(184, 37, 37);
+    color: rgb(59, 52, 52);
+    border-radius: 10px;
+    border: 4px groove;
+    border-color: rgb(123, 170, 231);
+}
+
+#botXp {
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 35px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    background: rgb(59, 52, 52);
+    color: snow;
+    border-radius: 10px;
+    transition: transform 100ms linear;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+#imagem {
+    display: block;
+    margin: auto;
+    border-radius: 50%; 
+    width: 250px; 
+    height: 250px;
+}
+
+.labRad {
+    cursor: pointer;
+}
+
+#txtFinal {
+    font-size: 10px;
+}
+
+#xpHeroi {
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    padding: 3px;
+    margin-bottom: -13px;
+    margin-top: 3px;
+    color: blanchedalmond;
+}

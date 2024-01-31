@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>-- Herói --</title>
+</head>
+<body onload="carregamento()">
+    <header>
+        <h1 id="nomeHeroi">! Nome Herói !</h1>
+    </header>
+
+    <section>
+        <fieldset>
+            <legend>Experiencia</legend>
+            
+            <input type="radio" name="diffi" id="easy" value="facil" checked>
+            <label class="labRad" for="easy">Fácil</label> </input> <br>
+
+            <input type="radio" name="diffi" id="average" value="medio">
+            <label class="labRad" for="average">Médio</label></input> <br>
+
+            <input type="radio" name="diffi" id="hard" value="dificil">
+            <label class="labRad" for="hard">Difícil</label></input> <br>
+
+            <input id="botXp" type="button" value="[ !BOOH / AAHHH! ]" onclick="botXp()">
+            <label id="xpHeroi" for="">-- ** --</label>
+        </fieldset>
+    </section>
+
+    <section>
+        <div >
+            <img id="imagem" src="Assets/recruta.jpeg" alt="imagem do brasao">
+        </div>
+        <div >
+            <p id="txtFinal"></p>
+        </div>
+    </section>
+     
+    <script src="script.js"></script>
+</body>
+</html>
