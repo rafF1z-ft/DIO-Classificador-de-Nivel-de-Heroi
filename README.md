@@ -33,11 +33,12 @@ Se XP for entre 9.001 e 10.000= Imortal
 Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
 
- 
- 
+## Projeto Final
+ ![](https://github.com/rafF1z-ft/DIO-Classificador-de-Nivel-de-Heroi/blob/main/printIndex.png)
+
  
 Bons estudos 😉
 
-# Projeto Final
 
-![](https://github.com/rafF1z-ft/DIO-Classificador-de-Nivel-de-Heroi/blob/main/printIndex.png)
+
+
